@@ -25,7 +25,8 @@ namespace Lesson_02_PhoneBook
         public MainWindow()
         {
             InitializeComponent();
-            LoadFromFile();
+            if(File.Exists("Contacts.xml"))
+                LoadFromFile();
             UpdateListBox();
         }
 
