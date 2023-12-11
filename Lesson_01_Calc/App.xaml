@@ -1,0 +1,16 @@
+﻿<Application x:Class="Lesson_01_Calc.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Lesson_01_Calc"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="numbersColor" Color="Gray"/>
+        <SolidColorBrush x:Key="operatorsColor" Color="Orange"/>
+        <SolidColorBrush x:Key="foregroundColor" Color="White"/>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </Application.Resources>
+</Application>
